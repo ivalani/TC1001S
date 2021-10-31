@@ -61,7 +61,7 @@ def move():
     update()
     ontimer(move, 100)
 
-# Iwalani: Añade un nuevo color de fondo al juego cada vez que inicia.
+# Iwalani: cambiar el color del fondo
 wn = turtle.Screen()
 wn.title("Snake")
 colors = ["green", "violet", "blue", "purple", "yellow"]
